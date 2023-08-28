@@ -1,3 +1,10 @@
+## Where can i find my Cura folder?
+Fedora/Ubuntu/etc
+- /home/username/.local/share/cura/
+
+Linux Flatpak:
+ - /home/username/.var/app/com.ultimaker.cura/data/cura/5.4/
+
 # Elegoo Neptune 4
 Move the following files into the folder of your Cura
  - /resources/definitions/elegoo_neptune_4.def.json
