@@ -5,7 +5,7 @@ Move the following files into the folder of your Cura
  - /resources/extruders/custom_extruder_10.def.json
 
 ##  start GCode
-
+```
 G28 ;home
 G92 E0 ;Reset Extruder
 G1 Z4.0 F3000 ;Move Z Axis up
@@ -16,9 +16,9 @@ G1 X1.4 Y80.0 Z0.28 F5000.0 ;Move to side a little
 G1 X1.4 Y20 Z0.28 F1500.0 E20 ;Draw the second line
 G92 E0 ;Reset Extruder
 G1 Z2.0 F3000 ;Move Z Axis up
-
+```
 ## end GCode
-
+```
 G91 ;Relative positionning
 G1 E-2 F2700 ;Retract a bit
 G1 E-2 Z0.2 F2400 ;Retract and raise Z
@@ -30,7 +30,7 @@ M106 S0 ;Turn-off fan
 M104 S0 ;Turn-off hotend
 M140 S0 ;Turn-off bed
 M84 X Y E ;Disable all steppers but Z"
-
+```
 # Elegoo Neptune 4 Pro
 Move the following files into the folder of your Cura
  - /resources/definitions/elegoo_neptune_4_pro.def.json
@@ -38,7 +38,7 @@ Move the following files into the folder of your Cura
  - /resources/extruders/custom_extruder_10.def.json
 
 ## start GCode
-
+```
 G28 ;home
 G92 E0 ;Reset Extruder
 G1 Z4.0 F3000 ;Move Z Axis up
@@ -49,8 +49,9 @@ G1 X1.4 Y80.0 Z0.28 F5000.0 ;Move to side a little
 G1 X1.4 Y20 Z0.28 F1500.0 E20 ;Draw the second line
 G92 E0 ;Reset Extruder
 G1 Z2.0 F3000 ;Move Z Axis up
-
+```
 ## end GCode
+```
 G91 ;Relative positionning
 G1 E-2 F2700 ;Retract a bit
 G1 E-2 Z0.2 F2400 ;Retract and raise Z
@@ -62,4 +63,4 @@ M106 S0 ;Turn-off fan
 M104 S0 ;Turn-off hotend
 M140 S0 ;Turn-off bed
 M84 X Y E ;Disable all steppers but Z
-
+```
